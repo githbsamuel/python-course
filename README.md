@@ -68,8 +68,8 @@ caja_vacia = None
 
 Convenciones de nomenclatura de variables en Python:
 
-    - Usa snake_case palabras separadas por guiones bajos
-    - Sé descriptivo y usa palabras significativas
+- Usa snake_case palabras separadas por guiones bajos
+- Sé descriptivo y usa palabras significativas
 
 ```python
 # Buenos ejemplos
@@ -118,10 +118,10 @@ s2 = "Esto es un string"
 
 ### Varibles en Python: 
 
-    - Contenedores que contienen valores o datos
-    - Se utilizan para almacenar, manipular y mostrar información
-    - Tienen un nombre único y un valor
-    - Python detecta automáticamente el tipo de variable
+- Contenedores que contienen valores o datos
+- Se utilizan para almacenar, manipular y mostrar información
+- Tienen un nombre único y un valor
+- Python detecta automáticamente el tipo de variable
 
 Formato de inicialización de variables:
 
@@ -130,8 +130,9 @@ variable_name = value
 ```
 
 Tipos de números: 
-    - `int`: enteros (p, ej., 1,-2)
-    - `float`: números reales (p. ej., 1.32, 0.98)
+
+- `int`: enteros (p, ej., 1,-2)
+- `float`: números reales (p. ej., 1.32, 0.98)
 
 Ejemplos
 
