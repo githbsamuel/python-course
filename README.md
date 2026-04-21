@@ -57,3 +57,39 @@ average = total / len(numbers)
 print(avarege)
 ```
 ---
+
+## Variables 
+
+En python, `None` representa "ningún valor" o "nada":
+
+```python
+caja_vacia = None
+```
+
+Convenciones de nomenclatura de variables en Python:
+
+    - Usa snake_case palabras separadas por guiones bajos
+    - Sé descriptivo y usa palabras significativas
+
+```python
+# Buenos ejemplos
+age = 10
+greeitng = "Hola"
+is_active = True
+
+# Malos ejemplos
+isActive = False # No es snake case
+a = 10  # no es descriptivo
+```
+
+Un tipo bool(Boolean) tiene solo 2 valores posibles: `True` o
+`False`.
+
+Estos valores distinguen entre mayúsculas y minúsculas, lo 
+que significa que deben comenzar con una letra mayúscula.
+
+Asignación de valores bool a variables:
+
+```python
+variable_true = True
+```
