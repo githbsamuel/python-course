@@ -231,6 +231,26 @@ b4 = not (3 > 4)           # True
 b5 = not (5 > 10 or 5 > 1) # False
 ```
 
+Simplificación de expresiones lógicas: 
+
+- `(not A) and (not B)` es equivalente a `not (A or B)`
+- `(not A) or (not B)` es equivalente a `not (A and B)`
+
+
+```python
+# NO (entre 1 y 10)
+result = not number >= 1 and number <= 10 
+# es equivalente a:
+result = not number >= 1 or not number <= 10
+
+# No (un estudiante o empleado)
+result = not (is_student or is_employed)
+# es equivalente a:
+result = not is_student and not is_employed
+```
+
+Estas simplicaciones pueden ser útiles para simplificar expresiones lógicas complejas en programación.
+
 ### Operadores de comparación:
 
 | Operador | Significado       | Ejemplo                 |
@@ -262,4 +282,59 @@ var3 = var1 == var2 # var3 será True
 ```
 
 ---
+
+## Toma de decisiones 
+
+Las csetencias if en Python permiten la ejecución condicional
+del codigo, es decir, la ejecución de un bloque de codigo
+si una condicion dada es verdadera.
+
+```python
+if condition:
+    # Bloque de código sangrado
+    # Ejecutado solo si la condición es True
+```
+
+*Puntos clave:*
+
+- Usa dos puntos `:` despues de la condición
+- Sangra  el bloque de código con 4 espacios o un tabulador
+- El código sangrado se ejecuta solo si la condición es `True`
+
+Ejemplos de condiciones:
+
+```python
+age = 20
+status = "Child"
+if age > 18:     
+    status = "Adult"
+age +=1
+```
+En este ejemplo, `status` pasa a ser "Adult" porque `age` es 
+mayor a 18.
+
+Sentencias condicionales en Python:
+
+```python
+if condicion:
+    code
+elif condicion:
+    code
+else:
+    code
+```
+
+Ejemplo con multiples condiciones:
+
+```python
+age = 68
+status = "None"
+
+if  age < 18:
+    status = "Young"
+elif age >= 18 and age < 65:
+    status = "Adult"
+else:
+    status = "Old"
+```
 
