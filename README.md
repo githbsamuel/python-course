@@ -338,3 +338,69 @@ else:
     status = "Old"
 ```
 
+## E/S Básica
+
+Conversión de tipos (Casting) en Python:
+
+```python
+
+# Convertir cadena a entero
+var = int(input())
+
+# Convertir cadena a flotante
+var = float(input())
+
+# Convertir a booleano
+var = bool(input())
+
+# Convertir a cadena
+var = str(input())
+```
+
+Importante: Sumar cadenas las cocatena,
+mientras que sumar números realiza una
+operación aritmética:
+
+```python
+"5" + "5" = "55"  # Concatenación de cadenas
+5 + 5 = 10        # Suma numérica
+```
+
+Múltiples entradas:
+
+```python
+var1 = input()
+var2 = input()
+```
+
+Para obtener la entrada de un usuario:
+
+```python
+var = input()
+```
+
+La entrada siempre se almacena como una cadena, incluso para los números.
+
+Para imprimir un saludo con la entrada:
+
+```python
+name = input()
+print("Hola, " + name)
+```
+Para insertar valores de variables en una cadena, utiliza f-strings:
+
+```python
+age = 10
+print(f"His age is: {age}")
+# Salida: His age is: 10
+```
+
+Las f-strings se crean añadiendo una `f` antes de las comillas. Las variables se insertan utilizando llaves {}:
+
+```python
+variable = "value"
+print(f"Text {variable} more text")
+```
+
+
+
